@@ -35,9 +35,9 @@ beacon2604/
 대동여지도 지명DB : https://www.hisgeo.info/wiki/%EC%A1%B0%EC%84%A0_%EB%8C%80%EB%8F%99%EC%97%AC%EC%A7%80%EB%8F%84_DB 
 
 ## 관련 사이트 
-기술 블로그 : https://unique-payment-110.notion.site/2026-04-18-34080db13da58073bc3ff88b96ada8b0
-Github : https://github.com/thlee33/beacon2604 
-위키백과 - 제2로 직봉 : https://ko.wikipedia.org/wiki/%EC%A0%9C2%EB%A1%9C_%EC%A7%81%EB%B4%89
-나무위키 - 봉화 : https://namu.wiki/w/%EB%B4%89%ED%99%94#rfn-7
-위키백과 - 조선의 봉수 : https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EC%9D%98_%EB%B4%89%EC%88%98
-우리역사넷 - https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0184_0010&
+기술 블로그 : https://unique-payment-110.notion.site/2026-04-18-34080db13da58073bc3ff88b96ada8b0  
+Github : https://github.com/thlee33/beacon2604   
+위키백과 - 제2로 직봉 : https://ko.wikipedia.org/wiki/%EC%A0%9C2%EB%A1%9C_%EC%A7%81%EB%B4%89  
+나무위키 - 봉화 : https://namu.wiki/w/%EB%B4%89%ED%99%94#rfn-7  
+위키백과 - 조선의 봉수 : https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EC%9D%98_%EB%B4%89%EC%88%98  
+우리역사넷 - https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0184_0010&  
