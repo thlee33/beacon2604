@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>봉수 디지털 트윈</title>
+  
+  <!-- CesiumJS library -->
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.116/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.116/Build/Cesium/Cesium.js"></script>
+  
+  <!-- Custom Fonts (Pretendard) -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <canvas id="fire-canvas"></canvas>
+  
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div class="header">
+      <h1>조선시대 봉수(烽燧) 디지털 트윈</h1>
+      <p class="subtitle">왜적의 침략을 알려라! - 가시권(LoS) 시뮬레이션</p>
+    </div>
+    
+    <div class="lists-container">
+      <div class="group-container">
+        <h2>제1그룹 (부산~영천)</h2>
+        <ul id="list-group-1" class="beacon-list">
+          <!-- JS 렌더링 -->
+        </ul>
+      </div>
+
+      <div class="group-container">
+        <h2>제2그룹 (충주~궁궐)</h2>
+        <ul id="list-group-2" class="beacon-list">
+          <!-- JS 렌더링 -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- 설명 및 참조 -->
+    <div class="references-container">
+      <button id="btn-references" class="btn-toggle-ref">설명 및 참조 <span class="arrow">▼</span></button>
+      <div id="ref-content" class="ref-content">
+        <ul class="ref-list">
+          <li><a href="https://unique-payment-110.notion.site/2026-04-18-34080db13da58073bc3ff88b96ada8b0" target="_blank">기술 블로그</a></li>
+          <li><a href="https://github.com/thlee33/beacon2604" target="_blank">Github</a></li>
+          <li><a href="https://ko.wikipedia.org/wiki/%EC%A0%9C2%EB%A1%9C_%EC%A7%81%EB%B4%89" target="_blank">위키백과 - 제2로 직봉</a></li>
+          <li><a href="https://namu.wiki/w/%EB%B4%89%ED%99%94#rfn-7" target="_blank">나무위키 - 봉화</a></li>
+          <li><a href="https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EC%9D%98_%EB%B4%89%EC%88%98" target="_blank">위키백과 - 조선의 봉수</a></li>
+          <li><a href="https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0184_0010&" target="_blank">우리역사넷</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loader"></div>
+    <p>3D 지형과 봉수 데이터를 불러오는 중...</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
